@@ -2,7 +2,6 @@ package pvdk84.junit;
 
 import junit.framework.TestCase;
 import org.junit.*;
-import static org.junit.Assert.*;
 
 /**
  * Tests for Calculator
@@ -47,9 +46,7 @@ public class CalculatorTest extends TestCase {
     @Test
     public void testHundredDividedByTenEqualsTen() {
         double result = calculator.divide(100,10);
-        double expected = 10;
+        double expected = 11;
         assertEquals(expected, result);
     }
-
-
 }
