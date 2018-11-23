@@ -46,7 +46,7 @@ public class CalculatorTest extends TestCase {
     @Test
     public void testHundredDividedByTenEqualsTen() {
         double result = calculator.divide(100,10);
-        double expected = 11;
+        double expected = 10;
         assertEquals(expected, result);
     }
 }
